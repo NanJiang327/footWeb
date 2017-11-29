@@ -36,33 +36,26 @@
 	</header><!-- Header end -->
 
 	<content><!-- Content begin-->
-		<div id="content">
-			<div id="right-content">
-				<p>
-					1. Ensure bot is on GitHub<br/>
-					2. Create "Web App" on Azure<br/>
-					3. Select "Deployment Options"<br/>
-					4. Select "GitHub" as source<br/>
-					5. You may need to do the authentification stuff<br/>
-					6. Select your GitHub repo and a branch<br/>
-					7. Show off the continuous deployment<br/>
-					8. Press "ok"<br/>
-					9. Go to https://ngrok.com/downloads<br/>
-					10. Download correct version for you
-					11. Open bot emulator
-					12. Click 3 dots on top right<br/>
-					13. "App Settings"<br/>
-					14. Browse and select the downloaded "ngrok.exe"<br/>
-					15. Copy URL to the Azure web app and add "/api/messages"<br/>
-					16. Try It!
-				</p>
+		<div class="row">
+			<div id="left-content" class="col-sm-6">
+				<div id="text">
+					<h1>Welcome to the Contoso Chat Bot</h1>
+					<p>You can manage your appointments, check currency, recognize currency here :)</p>
+				</div>
+			</div>
+			<div id="right-content" class="col-sm-6">
+				<video class="vedio" src="res/newVedio.mp4" controls="controls" >
+					<p id="notSupport">
+						Your browser doesn't support this video.
+					</p>
+				</video>
 			</div>
 		</div>
 	</content><!-- Content end-->
 
 	<div id="chat">
 		<div id="chatBtn" onclick="openChat()">
-			<i class="fa fa-commenting-o" aria-hidden="true" "></i>
+			<i class="fa fa-commenting-o" aria-hidden="true"></i>
 		</div>
 		<div id="chat-frame" class="hide">
 			<iframe src='https://webchat.botframework.com/embed/bot_handle_info?s=v4mpOIqt9_U.cwA.Dms.Cs3fLZ9-dh2wIQVPi3NM3F5UyoKAZhqLR2huFFxZzzE'></iframe>
@@ -71,13 +64,15 @@
 	</div>
 
 	<footer>
-		<ul class="share-group">
-			<li><a href="https://github.com/NanJiang327" target="view_window"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
-			<li><a href="https://www.linkedin.com/in/nan-jiang-12520a142/" target="view_window"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true" target="view_window"></i></a></li>
-			<li><a href="https://www.facebook.com/profile.php?id=100007611424748" target="view_window"><i class="fa fa-facebook-square fa-2x" aria-hidden="true" target="view_window"></i></a></li>
-		</ul>
-		<div class="copy">
-			&copy Nan Jiang - 2017
+		<div>
+			<ul class="share-group">
+				<li><a href="https://github.com/NanJiang327" target="view_window"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/nan-jiang-12520a142/" target="view_window"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true" target="view_window"></i></a></li>
+				<li><a href="https://www.facebook.com/profile.php?id=100007611424748" target="view_window"><i class="fa fa-facebook-square fa-2x" aria-hidden="true" target="view_window"></i></a></li>
+			</ul>
+			<div class="copy">
+				&copy Nan Jiang - 2017
+			</div>
 		</div>
 	</footer>
 

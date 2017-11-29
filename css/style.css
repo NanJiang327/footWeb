@@ -1,8 +1,3 @@
-h1{
-	padding: 12px;
-	border-top: 2px solid #fff;
-	border-bottom: 2px solid #fff;
-}
 
 p{
 	font-size: 18px;
@@ -30,7 +25,7 @@ body.modal-open {
 }
 
 .bg{
-	background: #444 url(../res/img/pic.png);
+	background: #444 url(../res/img/pic.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -95,22 +90,47 @@ body.modal-open {
 /*
 * Content
  */
-#content{
+
+.row{
 	padding-top: 50.9px;
-
-}
-
-
-#right-content {
-	width: 50%;
-	height: 100%;
-	float: right;
-}
-
-
-#content {
 	margin: 0 auto;
-	height: 850px;
+	min-height: 850px;
+
+}
+
+
+#right-content .vedio{
+	border-radius: 15px;
+	width: 70%;
+	height: 70%;
+	margin: 15%;
+
+}
+
+#notSupport{
+	color: white;
+	font-size: 35px;
+}
+
+#left-content{
+	height: 100%;
+	text-align: center;
+}
+
+
+
+#text h1{
+	color: white;
+	height: 100%;
+	max-width: 500px;
+	padding-top: 15%;
+	padding-left: 20%;
+	font-size: 45px;
+}
+
+#text p{
+	color: #d4d4d4;
+	font-size: 25px;
 }
 
 
@@ -181,7 +201,7 @@ footer{
 #chat{
 	position: fixed;
 	bottom: 0px;
-	right: 50px;
+	right: 5%;
 	height: 400px;
 	width: 300px;
 	font-size: large;
@@ -215,7 +235,7 @@ iframe {
 
 #chatBtn{
 	position: fixed;
-	right: 50px;
+	right: 5%;
 	width: 120px;
 	bottom: 0px;
 	border-top-right-radius: 10px;
